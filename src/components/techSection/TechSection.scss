@@ -1,0 +1,20 @@
+.tech {
+
+  background-color: #001a1c;
+  padding: 50px 0;
+  margin-bottom: 50px;
+
+  &__list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 25px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
