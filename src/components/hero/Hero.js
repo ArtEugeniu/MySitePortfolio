@@ -1,5 +1,5 @@
 import './Hero.scss'
-import HeroImage from '../../images/hero-background.jpg'
+import HeroImage from '../../assets/images/hero-background.jpg'
 
 function Hero() {
   return (

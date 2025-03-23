@@ -1,12 +1,12 @@
 import './AboutSection.scss'
-import myPhoto from '../../images/my-photo.jpg'
+import myPhoto from '../../../assets/images/my-photo.jpg'
 
 function AboutSection() {
   return (
     <section className='about'>
       <div className="container">
 
-        <h2 className="about__title">About Me</h2>
+        <h2 className="about__title section-title">About Me</h2>
         <div className="about__content">
           <img className='about__img' src={myPhoto} alt="Artemiev Eugeniu photo" />
           <div className="about__text">

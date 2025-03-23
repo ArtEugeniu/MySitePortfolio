@@ -12,15 +12,4 @@
     text-align: center;
   }
 
-  &__categories span:not(:last-child) {
-    margin-right: 25px;
-  }
-
-  &__grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
-    margin: 0 auto;
-  }
 }

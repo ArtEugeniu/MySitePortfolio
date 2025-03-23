@@ -1,5 +1,5 @@
 import './AchivementCards.scss';
-import sertificate from '../../../images/certificate.jpg'
+import sertificate from '../../../assets/images/certificate.jpg'
 
 function AchivementCards() {
   return(

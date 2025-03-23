@@ -1,0 +1,68 @@
+.categories {
+
+  margin-bottom: 60px;
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__button {
+    padding: 8px 25px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #1c5356;
+    position: relative;
+    transition: all 0.3s;
+
+    &:hover {
+      color: #23bdc5;
+      background-color: #23bdc500;
+      box-shadow: 0 0 0 1px #23bdc5;
+    }
+
+    &:active {
+      background-color: #1c5356;
+    }
+
+    &--html-css,
+    &--js,
+    &--react {
+      padding: 8px 15px 8px 40px;
+    }
+
+    &::before {
+      content: '';
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: 5px;
+      top: 8px;
+    }
+
+    &--html-css::before {
+      background-image: url('../../assets/images/html-icon.svg');
+    }
+
+    &--js::before {
+      background-image: url('../../assets/images/js-icon.svg');
+    }
+
+    &--react::before {
+      background-image: url('../../assets/images/react-icon.svg');
+    }
+  }
+
+  &__button-active {
+    color: #23bdc5;
+    background-color: #23bdc500;
+    box-shadow: 0 0 0 1px #23bdc5;
+  }
+}

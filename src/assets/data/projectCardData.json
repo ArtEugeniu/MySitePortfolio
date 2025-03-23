@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "title": "SimpleFood",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "HTML/CSS",
+    "imageURL": "simpleFood.jpg",
+    "link": "https://arteugeniu.github.io/SimpleFood/",
+    "github": "https://github.com/ArtEugeniu/SimpleFood"
+  },
+
+  {
+    "id": 2,
+    "title": "Memory Game",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "JavaScript",
+    "imageURL": "memoryGame.jpg",
+    "link": "https://arteugeniu.github.io/MemoryGame/",
+    "github": "https://github.com/ArtEugeniu/MemoryGame"
+  },
+
+  {
+    "id": 3,
+    "title": "My Portfolio-Site",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "React",
+    "imageURL": "myPortfolioSite.jpg",
+    "link": "https://arteugeniu.github.io/MySitePortfolio/",
+    "github": "https://github.com/ArtEugeniu/MySitePortfolio"
+  },
+
+  {
+    "id": 4,
+    "title": "To Do List (Vanilla JS)",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "JavaScript",
+    "imageURL": "toDoListJs.jpg",
+    "link": "https://arteugeniu.github.io/ToDoList-Vanilla-Js/",
+    "github": "https://github.com/ArtEugeniu/ToDoList-Vanilla-Js"
+  },
+
+  {
+    "id": 5,
+    "title": "SimpleFood",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "HTML/CSS",
+    "imageURL": "portfolioProject.jpg",
+    "link": "https://arteugeniu.github.io/portfolioProject/",
+    "github": "https://github.com/ArtEugeniu/portfolioProject"
+  },
+
+  {
+    "id": 6,
+    "title": "TicTacToe Game",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "JavaScript",
+    "imageURL": "ticTacToe.jpg",
+    "link": "https://arteugeniu.github.io/XO_Game/",
+    "github": "https://github.com/ArtEugeniu/XO_Game"
+  },
+
+  {
+    "id": 7,
+    "title": "CalculatorApp",
+    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "category": "JavaScript",
+    "imageURL": "calculator.jpg",
+    "link": "https://arteugeniu.github.io/Calculator-/",
+    "github": "https://github.com/ArtEugeniu/Calculator-"
+  }
+]
