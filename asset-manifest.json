@@ -1,20 +1,31 @@
 {
   "files": {
-    "main.css": "/MySitePortfolio/static/css/main.d2b6b89e.css",
-    "main.js": "/MySitePortfolio/static/js/main.fd735ef8.js",
+    "main.css": "/MySitePortfolio/static/css/main.76073772.css",
+    "main.js": "/MySitePortfolio/static/js/main.0af12227.js",
     "static/js/453.b44f694f.chunk.js": "/MySitePortfolio/static/js/453.b44f694f.chunk.js",
+    "static/media/portfolioProject.jpg": "/MySitePortfolio/static/media/portfolioProject.dc395430fd40663bd027.jpg",
     "static/media/hero-background.jpg": "/MySitePortfolio/static/media/hero-background.1ade596bec9e403bf653.jpg",
     "static/media/certificate.jpg": "/MySitePortfolio/static/media/certificate.81007735ddf5afb35f88.jpg",
-    "static/media/project-example.jpg": "/MySitePortfolio/static/media/project-example.05de9857c03e72123b73.jpg",
+    "static/media/myPortfolioSite.jpg": "/MySitePortfolio/static/media/myPortfolioSite.9c600944f7ce51be5859.jpg",
+    "static/media/simpleFood.jpg": "/MySitePortfolio/static/media/simpleFood.05de9857c03e72123b73.jpg",
     "static/media/my-photo.jpg": "/MySitePortfolio/static/media/my-photo.a99f72008f916d652d0b.jpg",
+    "static/media/ticTacToe.jpg": "/MySitePortfolio/static/media/ticTacToe.f028049f16f4149d0a19.jpg",
+    "static/media/calculator.jpg": "/MySitePortfolio/static/media/calculator.5293ce18261d05f2d35c.jpg",
+    "static/media/memoryGame.jpg": "/MySitePortfolio/static/media/memoryGame.6f57611ec654efba07da.jpg",
+    "static/media/toDoListJs.jpg": "/MySitePortfolio/static/media/toDoListJs.6a552970c4ed47d3409f.jpg",
+    "static/media/react-icon.svg": "/MySitePortfolio/static/media/react-icon.e7574af26628c8d8cc52.svg",
     "static/media/logo.svg": "/MySitePortfolio/static/media/logo.2dbf0251bcc8fb456fe55c7196d7f0d5.svg",
+    "static/media/link-icon.svg": "/MySitePortfolio/static/media/link-icon.ee8806c2f979c6cdd365.svg",
+    "static/media/github-icon.svg": "/MySitePortfolio/static/media/github-icon.6fa18895f6e6c7772cab.svg",
+    "static/media/js-icon.svg": "/MySitePortfolio/static/media/js-icon.081325c6f229605dce15.svg",
     "index.html": "/MySitePortfolio/index.html",
-    "main.d2b6b89e.css.map": "/MySitePortfolio/static/css/main.d2b6b89e.css.map",
-    "main.fd735ef8.js.map": "/MySitePortfolio/static/js/main.fd735ef8.js.map",
+    "static/media/html-icon.svg": "/MySitePortfolio/static/media/html-icon.c1bb84e022ca9d76984d.svg",
+    "main.76073772.css.map": "/MySitePortfolio/static/css/main.76073772.css.map",
+    "main.0af12227.js.map": "/MySitePortfolio/static/js/main.0af12227.js.map",
     "453.b44f694f.chunk.js.map": "/MySitePortfolio/static/js/453.b44f694f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2b6b89e.css",
-    "static/js/main.fd735ef8.js"
+    "static/css/main.76073772.css",
+    "static/js/main.0af12227.js"
   ]
 }
