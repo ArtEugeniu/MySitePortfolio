@@ -11,6 +11,7 @@ body {
   line-height: 1.5;
   background-color: #001a1c;
   color: #f0f1f0;
+  text-shadow: 0 0 5px #00ffff80;
 }
 
 .container {
@@ -53,4 +54,8 @@ ul {
 
 .section-title {
   font-size: 48px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-shadow: 0 0 5px #00ffff80;
 }

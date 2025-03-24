@@ -1,8 +1,66 @@
 .card {
-  max-width: 200px;
-  
-  background-color: #000a0b;
-  padding: 20px 15px;
-  text-align: center;
-  border-radius: 25px;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+  gap: 25px;
+
+  &__title {
+    font-size: 24px;
+    text-shadow: 0 0 5px #00ffff80;
+    font-weight: bold;
+    color: #88ffed;
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+
+    &::before {
+      content: '';
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 4px;
+      left: 0;
+    }
+
+    &--html::before {
+      background-image: url('../../../assets/images/html-icon.svg');
+    }
+
+    &--js::before {
+      background-image: url('../../../assets/images/js-icon.svg');
+    }
+
+    &--react::before {
+      background-image: url('../../../assets/images/react-icon.svg');
+      left: 30px;
+    }
+
+    &--git::before {
+      background-image: url('../../../assets/images/github-icon.svg');
+      left: -5px;
+    }
+  }
+
+  &__item {
+    width: 220px;
+    min-height: 220px;
+    padding: 15px;
+    background: #1c5356;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 0 6px 1px rgb(84, 254, 175);
+    text-align: center;
+  }
+
+  &__text {
+    color: #d9feff;
+    text-shadow: 0 0 5px #00ffff80;
+  }
 }

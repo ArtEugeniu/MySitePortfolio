@@ -1,4 +1,9 @@
 .header {
   background-color: #001a1c;
   padding: 25px 0;
+  position: sticky;
+  top: 0;
+  opacity: 0.989;
+  box-shadow: 0 0 6px 1px rgb(84, 254, 175);
+  z-index: 1000;
 }

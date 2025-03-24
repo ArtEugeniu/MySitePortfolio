@@ -14,8 +14,59 @@
   &__list {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    
   }
 
-  
+  &__item {
+    padding: 5px;
+    position: relative;
+
+    
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 60px;
+  }
+
+  &__link {
+
+    transition: opacity 0.4s;
+
+    &::before {
+      content: '';
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      left: -29px;
+      top: 3px;
+    }
+
+    &--gmail::before {
+      background-image: url('../../../assets/images/gmail-icon.svg');
+    }
+
+    &--tel::before {
+      background-image: url('../../../assets/images/tel-icon.svg');
+    }
+
+    &--git::before {
+      background-image: url('../../../assets/images/github-white-icon.svg');
+    }
+
+    &--telegram::before {
+      background-image: url('../../../assets/images/telegram-icon.svg');
+    }
+
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 0.2;
+    }
+  }
 }

@@ -1,5 +1,7 @@
 .about {
 
+  margin-bottom: 50px ;
+
   &__title {
     text-align: center;
     font-size: 48px;
@@ -9,15 +11,23 @@
   &__content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   &__img {
-    max-width: 600px;
+    max-width: 500px;
+    width: 100%;
     display: block;
+    height: auto;
     margin-right: 50px;
+    border-radius: 5px;
   }
 
-  &__text p:not(:last-child) {
-    margin-bottom: 25px;
+  &__paragraph {
+    font-size: 17px;
+  }
+
+  &__paragraph:not(:last-child) {
+    margin-bottom: 25px;  
   } 
 }

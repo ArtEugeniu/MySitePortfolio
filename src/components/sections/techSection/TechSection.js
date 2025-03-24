@@ -3,29 +3,10 @@ import './TechSection.scss'
 
 function TechSection() {
   return (
-    <section className="tech">
+    <section className="tech" id="tech">
       <div className="container"> 
         <h2 className="tech__title section-title">Tech Stack</h2>
-        <ul className="tech__list">
-          <li className="tech__item">
-          <TechCards />
-          </li>
-          <li className="tech__item">
-          <TechCards />
-          </li>
-          <li className="tech__item">
-          <TechCards />
-          </li>
-          <li className="tech__item">
-          <TechCards />
-          </li>
-          <li className="tech__item">
-          <TechCards />
-          </li>
-          <li className="tech__item">
-          <TechCards />
-          </li>
-        </ul>
+        <TechCards />
       </div>
     </section>
   )

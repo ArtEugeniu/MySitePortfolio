@@ -11,8 +11,23 @@
     display: flex;
   }
 
-  &__item:not(:last-child) {
-    margin-right: 30px;
+  &__item {
+    transition: opacity 0.4s;
+    &:hover {
+      opacity: 0.5;
+    }
+
+    &:active {
+      opacity: 0.2;
+    }
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+
+    & a {
+      padding: 5px;
+    }
   }
 }
 

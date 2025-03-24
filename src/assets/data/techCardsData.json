@@ -1,0 +1,20 @@
+{
+  "technologies": [
+    {
+      "title": "HTML/CSS",
+      "description": "Although I primarily work with React, I use HTML within JSX to create structured, semantic, and accessible components."
+    },
+    {
+      "title": "JavaScript",
+      "description": "I use JavaScript to create dynamic and interactive web applications, focusing on clean code and modern ES6+ features."
+    },
+    {
+      "title": "React",
+      "description": "I build responsive and modular UI components with React, leveraging hooks, context API, and state management techniques."
+    },
+    {
+      "title": "Git/GitHub",
+      "description": "I use Git for version control and collaborate on projects via GitHub, following best practices like branching and pull requests."
+    }
+  ]
+}

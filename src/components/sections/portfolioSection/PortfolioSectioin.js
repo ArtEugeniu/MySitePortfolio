@@ -12,7 +12,7 @@ function PortfolioSection() {
   }
 
   return (
-    <section className="portfolio">
+    <section className="portfolio" id="portfolio">
       <div className="container">
         <h2 className="portfolio__title section-title">
           Portfolio

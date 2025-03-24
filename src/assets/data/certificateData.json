@@ -1,0 +1,39 @@
+{
+  "certificates": [
+    {
+      "title": "Site Layout",
+      "platform": "From 0 to 1",
+      "date": "Completed at: 01-04-2023",
+      "certificate_url": "https://example.com/site-layout-cert",
+      "imageURL": "certificateLayout.png"
+    },
+    {
+      "title": "JavaScript 1",
+      "platform": "ItGit",
+      "date": "Completed at: 04-09-2024",
+      "certificate_url": "https://example.com/javascript1-cert",
+      "imageURL": "certificate.jpg"
+    },
+    {
+      "title": "JavaScript 2",
+      "platform": "ItGit",
+      "date": "Completed at: 11-10-2024",
+      "certificate_url": "https://example.com/javascript2-cert",
+      "imageURL": "certificateJs2.jpg"
+    },
+    {
+      "title": "TypeScript",
+      "platform": "ItGit",
+      "date": "Completed at: 06-02-2025",
+      "certificate_url": "https://example.com/typescript-cert",
+      "imageURL": "certificateTs.jpg"
+    },
+    {
+      "title": "React.js",
+      "platform": "ItGit",
+      "date": "In progress",
+      "certificate_url": "https://example.com/react-cert",
+      "imageURL": "certificateReact.jpg"
+    }
+  ]
+}
