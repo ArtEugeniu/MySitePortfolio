@@ -1,9 +1,14 @@
 .header {
   background-color: #001a1c;
-  padding: 25px 0;
+  padding: 10px 0;
   position: sticky;
   top: 0;
   opacity: 0.989;
-  box-shadow: 0 0 6px 1px rgb(84, 254, 175);
   z-index: 1000;
+  transition: padding 0.4s, box-shadow 0.4s;
+
+  &__scroled {
+    padding: 25px 0;
+    box-shadow: 0 0 6px 1px rgb(84, 254, 175);
+  }
 }

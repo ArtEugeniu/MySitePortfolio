@@ -45,6 +45,11 @@
       background-image: url('../../../assets/images/github-icon.svg');
       left: -5px;
     }
+
+    &--css::before {
+      background-image: url('../../../assets/images/css-icon.svg');
+      left: 40px;
+    }
   }
 
   &__item {

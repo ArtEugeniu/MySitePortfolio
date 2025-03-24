@@ -9,6 +9,7 @@ import AchivementSection from './components/sections/achivementSection/Achivemen
 import ContactSection from './components/sections/contactSection/ContactSection';
 import AdaptiveMessage from './components/adaptiveMessage/AdaptiveMessage';
 
+
 import Footer from './components/footer/Footer';
 
 function App() {

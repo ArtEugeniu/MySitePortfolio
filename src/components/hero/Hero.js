@@ -3,7 +3,7 @@ import HeroImage from '../../assets/images/hero-background.jpg'
 
 function Hero() {
   return (
-    <section className="hero">
+    <section className="hero" id="home"> 
       <div className="container">
         <div className="hero__content">
           <h1 className='hero__title'>

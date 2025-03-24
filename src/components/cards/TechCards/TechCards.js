@@ -3,7 +3,7 @@ import techCardData from '../../../assets/data/techCardsData.json';
 
 function cardTitleModifClass(title) {
   switch (title) {
-    case 'HTML/CSS':
+    case 'HTML':
       return 'card__title--html';
     case 'JavaScript':
       return 'card__title--js';
@@ -11,6 +11,8 @@ function cardTitleModifClass(title) {
       return 'card__title--react';
     case 'Git/GitHub':
       return 'card__title--git';
+    case 'Css':
+      return 'card__title--css';
     default:
       return '';
   }

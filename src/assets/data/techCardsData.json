@@ -1,20 +1,24 @@
 {
   "technologies": [
     {
-      "title": "HTML/CSS",
-      "description": "Although I primarily work with React, I use HTML within JSX to create structured, semantic, and accessible components."
+      "title": "HTML",
+      "description": "I use HTML to create well-structured, semantic components, focusing on accessibility and clarity. This approach improves SEO, user experience, and ensures optimized performance across devices."
+    },
+    {
+      "title": "Css",
+      "description": "I use CSS to create clean, responsive designs, focusing on maintainability and scalability. With techniques like Flexbox, Grid, and media queries, I ensure a smooth user experience across devices."
     },
     {
       "title": "JavaScript",
-      "description": "I use JavaScript to create dynamic and interactive web applications, focusing on clean code and modern ES6+ features."
+      "description": "I use JavaScript to build dynamic, interactive web applications, focusing on clean, maintainable code. I leverage modern ES6+ features to create efficient, scalable solutions that enhance user experience and performance across devices."
     },
     {
       "title": "React",
-      "description": "I build responsive and modular UI components with React, leveraging hooks, context API, and state management techniques."
+      "description": "I build responsive and modular UI components with React, utilizing hooks, context API, and state management techniques to create dynamic, maintainable applications. My focus is on creating reusable components that ensure a seamless user experience across different devices."
     },
     {
       "title": "Git/GitHub",
-      "description": "I use Git for version control and collaborate on projects via GitHub, following best practices like branching and pull requests."
+      "description": "I use Git for version control and collaborate on projects via GitHub, following best practices like branching, pull requests, and meaningful commit messages to maintain a clean and organized codebase."
     }
   ]
 }
