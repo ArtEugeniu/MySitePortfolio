@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MySitePortfolio/static/css/main.85dde102.css",
-    "main.js": "/MySitePortfolio/static/js/main.b7c2655f.js",
+    "main.css": "/MySitePortfolio/static/css/main.e6c2424e.css",
+    "main.js": "/MySitePortfolio/static/js/main.a324243d.js",
     "static/js/453.3cbada5f.chunk.js": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js",
     "static/media/portfolioProject.jpg": "/MySitePortfolio/static/media/portfolioProject.dc395430fd40663bd027.jpg",
     "static/media/certificateLayout.png": "/MySitePortfolio/static/media/certificateLayout.0d7aa139f40cc5555957.png",
@@ -29,12 +29,12 @@
     "static/media/gmail-icon.svg": "/MySitePortfolio/static/media/gmail-icon.e1bc2ceb745debf9361a.svg",
     "static/media/css-icon.svg": "/MySitePortfolio/static/media/css-icon.3ec320225ef851ed26cf.svg",
     "static/media/html-icon.svg": "/MySitePortfolio/static/media/html-icon.c1bb84e022ca9d76984d.svg",
-    "main.85dde102.css.map": "/MySitePortfolio/static/css/main.85dde102.css.map",
-    "main.b7c2655f.js.map": "/MySitePortfolio/static/js/main.b7c2655f.js.map",
+    "main.e6c2424e.css.map": "/MySitePortfolio/static/css/main.e6c2424e.css.map",
+    "main.a324243d.js.map": "/MySitePortfolio/static/js/main.a324243d.js.map",
     "453.3cbada5f.chunk.js.map": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.85dde102.css",
-    "static/js/main.b7c2655f.js"
+    "static/css/main.e6c2424e.css",
+    "static/js/main.a324243d.js"
   ]
 }
