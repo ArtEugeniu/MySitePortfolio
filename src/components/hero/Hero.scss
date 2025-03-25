@@ -52,4 +52,55 @@
     z-index: 1;
   }
 
+  &__anchor {
+    position: absolute;
+    bottom: -210px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 7px 7px 30px 7px;
+    box-shadow: 0 0 6px 1px rgb(84, 254, 175);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: background-color 0.4s, color 0.4s;
+
+    &::before,
+    &::after {
+      content: '';
+      width: 20px;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #23bdc5;
+      position: absolute;
+      bottom: 17px;
+      transform: rotate(45deg);
+      transition: bottom 0.4s;
+    }
+
+    &::before {
+      right: 47%;
+      // transform: translateY(-50%);
+    }
+
+    &::after {
+      left: 47%;
+      // transform: translateX(-82%);
+      transform: rotate(-45deg);
+    }
+
+    &:hover {
+      background-color: #23bdc549;
+      color: #23bdc5;
+    }
+
+    &:hover::after,
+    &:hover::before {
+      bottom: 10px;
+    }
+
+    &:active {
+      opacity: 0.5;
+    }
+  }
+
 }

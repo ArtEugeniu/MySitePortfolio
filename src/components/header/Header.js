@@ -1,6 +1,7 @@
 import Nav from "../nav/Nav";
 import './Header.scss'
 import { useEffect, useState } from "react";
+// import Hero from '../hero/Hero'
 
 function Header() {
 
@@ -9,8 +10,14 @@ function Header() {
 
 
   useEffect(() => {
-    const header = document.querySelector('.header');
-    setHeaderHeight(header.offsetHeight);
+
+    function actualHeaderHeight() {
+      const header = document.querySelector('.header').offsetHeight;
+      setHeaderHeight(header);
+    }
+
+    actualHeaderHeight();
+
 
     function handleScroll() {
       if (window.scrollY > 50) {
@@ -21,8 +28,13 @@ function Header() {
     };
 
     window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', actualHeaderHeight);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('scroll', actualHeaderHeight);
+    } 
+    
   }, [])
 
   return (

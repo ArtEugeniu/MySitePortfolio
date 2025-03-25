@@ -1,9 +1,9 @@
 import './Hero.scss'
-import HeroImage from '../../assets/images/hero-background.jpg'
+import { Link } from 'react-scroll';
 
 function Hero() {
   return (
-    <section className="hero" id="home"> 
+    <section className="hero" id="home">
       <div className="container">
         <div className="hero__content">
           <h1 className='hero__title'>
@@ -15,6 +15,13 @@ function Hero() {
           <p className='hero__description'>
             As a Frontend Developer, I craft responsive and user-friendly web experiences using modern technologies.
           </p>
+          <Link
+            className='hero__anchor'
+            to='portfolio'
+            smooth={true}
+            offset={-60}
+            duration={900}
+          >View Portfolio</Link>
         </div>
       </div>
     </section>

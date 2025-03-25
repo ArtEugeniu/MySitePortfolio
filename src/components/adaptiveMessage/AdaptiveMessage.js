@@ -1,24 +1,6 @@
-import { useState, useEffect } from 'react';
 import './AdaptiveMessage.scss';
 
 function AdaptiveMessage() {
-
-  // const [isMobile, setIsMobile] = useState(window.innerWidth <= 500);
-
-  // function checkScreensize() {
-  //   setIsMobile(window.innerWidth <= 950)
-  // }
-
-  // useEffect(() => {
-  //   checkScreensize();
-  //   window.addEventListener('resize', checkScreensize)
-
-  //   return () => {
-  //     window.removeEventListener('resize', checkScreensize);
-  //   };
-  // }, []);
-
-  // if (!isMobile) return null;
 
   return (
 

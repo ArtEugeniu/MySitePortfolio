@@ -8,6 +8,7 @@ import PortfolioSection from './components/sections/portfolioSection/PortfolioSe
 import AchivementSection from './components/sections/achivementSection/AchivementSection';
 import ContactSection from './components/sections/contactSection/ContactSection';
 import AdaptiveMessage from './components/adaptiveMessage/AdaptiveMessage';
+import ScrollToTop from './components/scrollToTop/ScrollToTop';
 
 
 import Footer from './components/footer/Footer';
@@ -37,6 +38,7 @@ function App() {
           <PortfolioSection />
           <AchivementSection />
           <ContactSection />
+          <ScrollToTop />
           <Footer />
         </>
       )}
