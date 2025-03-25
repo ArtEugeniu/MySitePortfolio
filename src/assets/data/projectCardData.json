@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "SimpleFood",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "A multi-page online store built with HTML, CSS, and SCSS, utilizing jQuery and plugins for enhanced functionality.",
     "category": "HTML/CSS",
     "imageURL": "simpleFood.jpg",
     "link": "https://arteugeniu.github.io/SimpleFood/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "title": "Memory Game",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "A memory mini-game built with JavaScript, featuring button event handling and interactive gameplay.",
     "category": "JavaScript",
     "imageURL": "memoryGame.jpg",
     "link": "https://arteugeniu.github.io/MemoryGame/",
@@ -22,7 +22,7 @@
   {
     "id": 3,
     "title": "My Portfolio-Site",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "My portfolio website built with React, utilizing useState, useEffect, components, and react-scroll for smooth navigation.",
     "category": "React",
     "imageURL": "myPortfolioSite.jpg",
     "link": "https://arteugeniu.github.io/MySitePortfolio/",
@@ -32,7 +32,7 @@
   {
     "id": 4,
     "title": "To Do List (Vanilla JS)",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "A classic To-Do List built with JavaScript, currently in development. Features task addition, editing, deletion, and Local Storage support",
     "category": "JavaScript",
     "imageURL": "toDoListJs.jpg",
     "link": "https://arteugeniu.github.io/ToDoList-Vanilla-Js/",
@@ -41,8 +41,8 @@
 
   {
     "id": 5,
-    "title": "SimpleFood",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "title": "PortfolioProject",
+    "description": "My first project built with HTML and CSS, featuring basic layout, responsiveness, and cross-browser compatibility.",
     "category": "HTML/CSS",
     "imageURL": "portfolioProject.jpg",
     "link": "https://arteugeniu.github.io/portfolioProject/",
@@ -52,7 +52,7 @@
   {
     "id": 6,
     "title": "TicTacToe Game",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "A Tic-Tac-Toe game built with JavaScript, featuring interactive gameplay and basic game logic.",
     "category": "JavaScript",
     "imageURL": "ticTacToe.jpg",
     "link": "https://arteugeniu.github.io/XO_Game/",
@@ -62,7 +62,7 @@
   {
     "id": 7,
     "title": "CalculatorApp",
-    "description": "Learn the basics of HTML, including structure, elements, and attributes.",
+    "description": "An Apple-style calculator built with JavaScript, featuring a sleek design and basic arithmetic functionality.",
     "category": "JavaScript",
     "imageURL": "calculator.jpg",
     "link": "https://arteugeniu.github.io/Calculator-/",
