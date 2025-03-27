@@ -11,8 +11,10 @@ function cardTitleModifClass(title) {
       return 'card__title--react';
     case 'Git/GitHub':
       return 'card__title--git';
-    case 'Css':
+    case 'CSS':
       return 'card__title--css';
+    case 'SCSS':
+      return 'card__title--scss';
     default:
       return '';
   }

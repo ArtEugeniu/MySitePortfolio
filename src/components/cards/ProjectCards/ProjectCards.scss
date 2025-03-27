@@ -10,7 +10,7 @@
   &__card {
     width: 420px;
     height: 480px;
-    padding: 15px;
+    padding: 10px;
     background: #1c5356;
     color: white;
     border-radius: 10px;
@@ -25,7 +25,6 @@
     height: 210px;
     object-fit: cover;
     border-radius: 5px;
-    margin-bottom: 10px;
     width: 100%;
     cursor: pointer;
     transition: filter 0.3s, transform 0.3s;
@@ -36,19 +35,20 @@
     text-shadow: 0 0 5px #00ffff80;
     font-weight: bold;
     color: #88ffed;
-    margin-bottom: 10px;
     transition: color 0.3s ease-in-out;
   }
 
   &__description {
     color: #d9feff;
     text-shadow: 0 0 5px #00ffff80;
-    margin-bottom: 50px;
     font-size: 18px;
   }
 
   &__buttons {
-    margin-bottom: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &__btn {

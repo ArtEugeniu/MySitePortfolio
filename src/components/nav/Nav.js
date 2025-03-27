@@ -1,10 +1,12 @@
 import logo from '../../assets/images/logo.svg';
 import './Nav.scss';
 import { Link } from 'react-scroll';
+import { useRef, useEffect } from 'react';
 
 
-function Nav({ headerHeight }) {
+function Nav({ headerHeight, isBurgerOpen, toggleBurger, burgerButton }) {
 
+  const burgerMenu = useRef();
   const navArr = ['Home', 'About Me', 'Tech Stack', 'Portfolio', 'Certificates', 'Contact'];
 
   function setAnchors(index) {
@@ -30,6 +32,34 @@ function Nav({ headerHeight }) {
     }
   }
 
+  useEffect(() => {
+    function handleClickOutsideBurger(event) {
+      if (
+        burgerMenu.current && burgerMenu.current.contains(event.target)
+      ) {
+        return;
+      }
+
+      if (
+        burgerButton.current && burgerButton.current.contains(event.target)
+      ) {
+        return;
+      }
+
+      if (isBurgerOpen) {
+        toggleBurger();
+      }
+    }
+
+    document.addEventListener('click', handleClickOutsideBurger);
+
+    return () => {
+      document.removeEventListener('click', handleClickOutsideBurger);
+    };
+  }, [isBurgerOpen]);
+
+
+
 
   return (
     <nav className="nav">
@@ -37,7 +67,7 @@ function Nav({ headerHeight }) {
         <img className="nav__img" src={logo} alt="logo" />
       </Link>
 
-      <ul className='nav__list'>
+      <ul className={`nav__list ${isBurgerOpen ? 'nav__list--active' : ''}`} ref={burgerMenu}>
         {navArr.map((item, index) => {
           return <li className='nav__item' key={item + index}>
             <Link

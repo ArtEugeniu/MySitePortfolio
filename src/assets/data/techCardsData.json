@@ -5,8 +5,12 @@
       "description": "I use HTML to create well-structured, semantic components, focusing on accessibility and clarity. This approach improves SEO, user experience, and ensures optimized performance across devices."
     },
     {
-      "title": "Css",
+      "title": "CSS",
       "description": "I use CSS to create clean, responsive designs, focusing on maintainability and scalability. With techniques like Flexbox, Grid, and media queries, I ensure a smooth user experience across devices."
+    },
+    {
+      "title": "SCSS",
+      "description": "SCSS is a powerful extension of CSS that introduces variables, nesting, and mixins to simplify and organize your styles. It helps keep code DRY and enhances maintainability, especially in large projects."
     },
     {
       "title": "JavaScript",

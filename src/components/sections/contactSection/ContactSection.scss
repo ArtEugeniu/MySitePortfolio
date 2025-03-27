@@ -1,5 +1,4 @@
 .contact {
-  padding: 50px 0;
 
   &__title {
     text-align: center;
@@ -15,22 +14,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
+    @media (max-width: 768px) {
+      flex-direction: column-reverse;
+      row-gap: 10px;
+    }
   }
 
   &__item {
-    padding: 5px;
     position: relative;
-
-    
   }
 
   &__item:not(:last-child) {
     margin-right: 60px;
+
+    @media (max-width: 768px) {
+      margin-right: 0;
+    }
   }
 
   &__link {
-
+    display: block;
+    padding: 5px 10px;
     transition: opacity 0.4s;
 
     &::before {
@@ -51,14 +56,26 @@
 
     &--tel::before {
       background-image: url('../../../assets/images/tel-icon.svg');
+
+      @media (max-width: 768px) {
+        left: -61px;
+      }
     }
 
     &--git::before {
       background-image: url('../../../assets/images/github-white-icon.svg');
+
+      @media (max-width: 768px) {
+        left: -68px;
+      }
     }
 
     &--telegram::before {
       background-image: url('../../../assets/images/telegram-icon.svg');
+
+      @media (max-width: 768px) {
+        left: -66px;
+      }
     }
 
     &:hover {

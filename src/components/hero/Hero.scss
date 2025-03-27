@@ -3,13 +3,11 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  position: relative;
 
+  position: relative;
   height: calc(100vh - 33.33px);
   max-width: 100%;
   
-  margin-bottom: 50px;
 
   &::after {
     content: '';
@@ -29,6 +27,10 @@
     transform: translate(-50%, -50%);
     padding: 10px;
     z-index: 1;
+
+    @media (max-height: 580px) {
+      top: 38%;
+    }
   }
 
   &__title {
@@ -39,22 +41,58 @@
     &--name-color {
       color: #23bdc5;
     }
+
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 30px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 25px;
+    }
+
+    @media (max-height: 580px) {
+      font-size: 38px;
+    }
   }
 
   &__subtitle {
     font-size: 36px;
     margin-bottom: 30px;
     z-index: 1;
+
+    @media (max-width: 768px) {
+      font-size: 27px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 21px;
+    }
+
+    @media (max-width: 375px) {
+      font-size: 17px;
+    }
+
+    @media (max-height: 580px) {
+      font-size: 29px;
+    }
   }
 
   &__description {
     font-size: 18px;
     z-index: 1;
+
+    @media (max-width: 375px) {
+      font-size: 17px;
+    }
   }
 
   &__anchor {
     position: absolute;
-    bottom: -210px;
+    bottom: -35vh;
     left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -63,7 +101,7 @@
     border-radius: 10px;
     font-size: 18px;
     transition: background-color 0.4s, color 0.4s;
-
+   
     &::before,
     &::after {
       content: '';
@@ -101,6 +139,19 @@
     &:active {
       opacity: 0.5;
     }
+
+    @media (max-width: 768px) {
+      bottom: -38vh;
+    }
+
+    @media (max-height: 697px) {
+      bottom: -25vh;
+    }
+
+    @media (max-height: 580px) {
+      bottom: -20vh;
+    }
+
   }
 
 }

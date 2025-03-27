@@ -6,6 +6,7 @@
   max-width: 800px;
   margin: 0 auto;
   gap: 25px;
+  padding-bottom: 6px;
 
   &__title {
     font-size: 24px;
@@ -30,6 +31,7 @@
 
     &--html::before {
       background-image: url('../../../assets/images/html-icon.svg');
+      left: 25px;
     }
 
     &--js::before {
@@ -49,6 +51,11 @@
     &--css::before {
       background-image: url('../../../assets/images/css-icon.svg');
       left: 40px;
+    }
+
+    &--scss::before {
+      background-image: url('../../../assets/images/scss-icon.svg');
+      left: 30px;
     }
   }
 

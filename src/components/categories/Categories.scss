@@ -1,14 +1,28 @@
 .categories {
-
   margin-bottom: 60px;
 
   &__list {
+    overflow-x: scroll;
     display: flex;
     justify-content: center;
+    padding: 1px 15px;
+
+
+    &::-webkit-scrollbar {
+      display: none; 
+    }
+
+    @media (max-width: 768px) {
+      justify-content: flex-start;
+    }
   }
 
   &__item:not(:last-child) {
     margin-right: 50px;
+
+    @media (max-width: 768px) {
+      margin-right: 35px;
+    }
   }
 
   &__button {
@@ -35,6 +49,10 @@
     &--js,
     &--react {
       padding: 8px 15px 8px 40px;
+    }
+
+    &--react {
+      padding-right: 25px;
     }
 
     &::before {

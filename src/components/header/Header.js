@@ -1,12 +1,13 @@
 import Nav from "../nav/Nav";
+import BurgerMenuButton from "../burgerMenu/BurgerMenu";
 import './Header.scss'
-import { useEffect, useState } from "react";
-// import Hero from '../hero/Hero'
+import { useEffect, useState, useRef } from "react";
 
-function Header() {
+function Header({ isBurgerOpen, toggleBurger }) {
 
   const [headerHeight, setHeaderHeight] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
+  const burgerButton = useRef();
 
 
   useEffect(() => {
@@ -33,14 +34,16 @@ function Header() {
     return () => {
       window.removeEventListener('scroll', handleScroll);
       window.removeEventListener('scroll', actualHeaderHeight);
-    } 
-    
-  }, [])
+    }
+
+  }, []);
 
   return (
-    <header className={`header ${isScrolled ? 'header__scroled' : ''}`}>
+    <header className={`header ${isScrolled ? 'header__scroled' : ''} ${isBurgerOpen ? 'header--opacity' : ''}`}>
       <div className="container">
-        <Nav headerHeight={headerHeight} />
+        <Nav headerHeight={headerHeight} isBurgerOpen={isBurgerOpen} toggleBurger={toggleBurger} burgerButton={burgerButton} />
+        <BurgerMenuButton toggleBurger={toggleBurger} isBurgerOpen={isBurgerOpen} burgerButton={burgerButton} />
+        <div className={isBurgerOpen ? 'header__overlay' : ''}></div>
       </div>
     </header>
   )
