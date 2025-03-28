@@ -22,6 +22,12 @@
     border-radius: 5px;
     margin-bottom: 10px;
     width: 100%;
+    cursor: pointer;
+    transition: 0.4s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__title {
@@ -38,4 +44,31 @@
     justify-content: space-between;
     font-size: 19px;
   }
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-image {
+  max-width: 80%;
+  max-height: 700px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
 }
