@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MySitePortfolio/static/css/main.ab18deef.css",
-    "main.js": "/MySitePortfolio/static/js/main.586cc5b3.js",
+    "main.css": "/MySitePortfolio/static/css/main.a325d05a.css",
+    "main.js": "/MySitePortfolio/static/js/main.a3c1d4de.js",
     "static/js/453.3cbada5f.chunk.js": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js",
     "static/media/portfolioProject.jpg": "/MySitePortfolio/static/media/portfolioProject.dc395430fd40663bd027.jpg",
     "static/media/certificateLayout.png": "/MySitePortfolio/static/media/certificateLayout.0d7aa139f40cc5555957.png",
@@ -11,31 +11,34 @@
     "static/media/certificateTs.jpg": "/MySitePortfolio/static/media/certificateTs.91affb48920f87f4e268.jpg",
     "static/media/myPortfolioSite.jpg": "/MySitePortfolio/static/media/myPortfolioSite.9c600944f7ce51be5859.jpg",
     "static/media/simpleFood.jpg": "/MySitePortfolio/static/media/simpleFood.05de9857c03e72123b73.jpg",
+    "static/media/certificateReact.jpg": "/MySitePortfolio/static/media/certificateReact.e34f1ddc048720febc61.jpg",
     "static/media/my-photo.jpg": "/MySitePortfolio/static/media/my-photo.a99f72008f916d652d0b.jpg",
     "static/media/ticTacToe.jpg": "/MySitePortfolio/static/media/ticTacToe.f028049f16f4149d0a19.jpg",
     "static/media/calculator.jpg": "/MySitePortfolio/static/media/calculator.5293ce18261d05f2d35c.jpg",
-    "static/media/memoryGame.jpg": "/MySitePortfolio/static/media/memoryGame.6f57611ec654efba07da.jpg",
+    "static/media/memoryGame.jpg": "/MySitePortfolio/static/media/memoryGame.1b01265d7b040140123e.jpg",
     "static/media/toDoListJs.jpg": "/MySitePortfolio/static/media/toDoListJs.6a552970c4ed47d3409f.jpg",
-    "static/media/certificateReact.jpg": "/MySitePortfolio/static/media/certificateReact.f29e79ba67e51fc67c3c.jpg",
     "static/media/react-icon.svg": "/MySitePortfolio/static/media/react-icon.e7574af26628c8d8cc52.svg",
     "static/media/logo.svg": "/MySitePortfolio/static/media/logo.2dbf0251bcc8fb456fe55c7196d7f0d5.svg",
     "static/media/tel-icon.svg": "/MySitePortfolio/static/media/tel-icon.c5ec00ef261b559d3e02.svg",
+    "static/media/bem-icon.svg": "/MySitePortfolio/static/media/bem-icon.dfa5f2b79400b0fc5627.svg",
     "static/media/link-icon.svg": "/MySitePortfolio/static/media/link-icon.ee8806c2f979c6cdd365.svg",
     "static/media/scss-icon.svg": "/MySitePortfolio/static/media/scss-icon.be9e675da3bd01774850.svg",
+    "index.html": "/MySitePortfolio/index.html",
     "static/media/github-icon.svg": "/MySitePortfolio/static/media/github-icon.6fa18895f6e6c7772cab.svg",
     "static/media/github-white-icon.svg": "/MySitePortfolio/static/media/github-white-icon.97ed8e7eef60d61ca469.svg",
     "static/media/telegram-icon.svg": "/MySitePortfolio/static/media/telegram-icon.b0589b5e724dd92cc132.svg",
     "static/media/js-icon.svg": "/MySitePortfolio/static/media/js-icon.081325c6f229605dce15.svg",
-    "index.html": "/MySitePortfolio/index.html",
     "static/media/gmail-icon.svg": "/MySitePortfolio/static/media/gmail-icon.e1bc2ceb745debf9361a.svg",
+    "static/media/typescript-icon.svg": "/MySitePortfolio/static/media/typescript-icon.f20748caf2dac55710dd.svg",
     "static/media/css-icon.svg": "/MySitePortfolio/static/media/css-icon.3ec320225ef851ed26cf.svg",
     "static/media/html-icon.svg": "/MySitePortfolio/static/media/html-icon.c1bb84e022ca9d76984d.svg",
-    "main.ab18deef.css.map": "/MySitePortfolio/static/css/main.ab18deef.css.map",
-    "main.586cc5b3.js.map": "/MySitePortfolio/static/js/main.586cc5b3.js.map",
+    "static/media/arrowRight-icon.svg": "/MySitePortfolio/static/media/arrowRight-icon.a738a3baf441f19785d7.svg",
+    "main.a325d05a.css.map": "/MySitePortfolio/static/css/main.a325d05a.css.map",
+    "main.a3c1d4de.js.map": "/MySitePortfolio/static/js/main.a3c1d4de.js.map",
     "453.3cbada5f.chunk.js.map": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab18deef.css",
-    "static/js/main.586cc5b3.js"
+    "static/css/main.a325d05a.css",
+    "static/js/main.a3c1d4de.js"
   ]
 }
