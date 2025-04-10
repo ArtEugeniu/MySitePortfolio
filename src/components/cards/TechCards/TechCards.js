@@ -15,6 +15,10 @@ function cardTitleModifClass(title) {
       return 'card__title--css';
     case 'SCSS':
       return 'card__title--scss';
+    case 'BEM Methodology':
+      return 'card__title--bem';
+    case 'TypeScript':
+      return 'card__title--ts'
     default:
       return '';
   }

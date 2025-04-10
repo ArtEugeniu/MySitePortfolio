@@ -25,7 +25,7 @@
       position: absolute;
       width: 30px;
       height: 30px;
-      top: 4px;
+      top: 2px;
       left: 0;
     }
 
@@ -56,6 +56,15 @@
     &--scss::before {
       background-image: url('../../../assets/images/scss-icon.svg');
       left: 30px;
+    }
+
+    &--bem::before {
+      background-image: url('../../../assets/images/bem-icon.svg');
+      left: 26px;
+    }
+
+    &--ts::before {
+      background-image: url('../../../assets/images/typescript-icon.svg');
     }
   }
 

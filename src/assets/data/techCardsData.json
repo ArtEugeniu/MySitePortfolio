@@ -17,12 +17,20 @@
       "description": "I use JavaScript to build dynamic, interactive web applications, focusing on clean, maintainable code. I leverage modern ES6+ features to create efficient, scalable solutions that enhance user experience and performance across devices."
     },
     {
+      "title": "TypeScript",
+      "description": "I use TypeScript to write safer, more predictable code by adding static typing to JavaScript. This helps catch errors early, improves code readability, and makes collaboration in larger codebases more efficient and maintainable."
+    },
+    {
       "title": "React",
       "description": "I build responsive and modular UI components with React, utilizing hooks, context API, and state management techniques to create dynamic, maintainable applications. My focus is on creating reusable components that ensure a seamless user experience across different devices."
     },
     {
       "title": "Git/GitHub",
       "description": "I use Git for version control and collaborate on projects via GitHub, following best practices like branching, pull requests, and meaningful commit messages to maintain a clean and organized codebase."
+    },
+    {
+      "title": "BEM Methodology",
+      "description": "I follow the BEM (Block Element Modifier) methodology to write clean, structured, and scalable CSS. It promotes consistency in naming conventions, simplifies maintenance, and ensures better collaboration in larger projects."
     }
   ]
 }
