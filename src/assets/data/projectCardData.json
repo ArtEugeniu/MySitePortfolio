@@ -8,17 +8,15 @@
     "link": "https://arteugeniu.github.io/SimpleFood/",
     "github": "https://github.com/ArtEugeniu/SimpleFood"
   },
-
   {
     "id": 2,
-    "title": "Memory Game",
-    "description": "A memory mini-game built with JavaScript, featuring button event handling and interactive gameplay.",
-    "category": "JavaScript",
-    "imageURL": "memoryGame.jpg",
-    "link": "https://arteugeniu.github.io/MemoryGame/",
-    "github": "https://github.com/ArtEugeniu/MemoryGame"
+    "title": "To Do App (TypeScript)",
+    "description": "A task manager app built with React and TypeScript, featuring task management, drag-and-drop, and filtering.",
+    "category": "React",
+    "imageURL": "toDoListReact.jpg",
+    "link": "https://arteugeniu.github.io/ToDoList-React/",
+    "github": "https://github.com/ArtEugeniu/ToDoList-React"
   },
-
   {
     "id": 3,
     "title": "My Portfolio-Site",
@@ -28,29 +26,8 @@
     "link": "https://arteugeniu.github.io/MySitePortfolio/",
     "github": "https://github.com/ArtEugeniu/MySitePortfolio"
   },
-
   {
     "id": 4,
-    "title": "To Do List (Vanilla JS)",
-    "description": "A classic To-Do List built with JavaScript, currently in development. Features task addition, editing, deletion, and Local Storage support",
-    "category": "JavaScript",
-    "imageURL": "toDoListJs.jpg",
-    "link": "https://arteugeniu.github.io/ToDoList-Vanilla-Js/",
-    "github": "https://github.com/ArtEugeniu/ToDoList-Vanilla-Js"
-  },
-
-  {
-    "id": 5,
-    "title": "PortfolioProject",
-    "description": "My first project built with HTML and CSS, featuring basic layout, responsiveness, and cross-browser compatibility.",
-    "category": "HTML/CSS",
-    "imageURL": "portfolioProject.jpg",
-    "link": "https://arteugeniu.github.io/portfolioProject/",
-    "github": "https://github.com/ArtEugeniu/portfolioProject"
-  },
-
-  {
-    "id": 6,
     "title": "TicTacToe Game",
     "description": "A Tic-Tac-Toe game built with JavaScript, featuring interactive gameplay and basic game logic.",
     "category": "JavaScript",
@@ -58,7 +35,24 @@
     "link": "https://arteugeniu.github.io/XO_Game/",
     "github": "https://github.com/ArtEugeniu/XO_Game"
   },
-
+  {
+    "id": 5,
+    "title": "To Do List (Vanilla JS)",
+    "description": "A classic To-Do List built with JavaScript. Features task addition, editing, deletion, and Local Storage support",
+    "category": "JavaScript",
+    "imageURL": "toDoListJs.jpg",
+    "link": "https://arteugeniu.github.io/ToDoList-Vanilla-Js/",
+    "github": "https://github.com/ArtEugeniu/ToDoList-Vanilla-Js"
+  },
+  {
+    "id": 6,
+    "title": "PortfolioProject",
+    "description": "My first project built with HTML and CSS, featuring basic layout, responsiveness, and cross-browser compatibility.",
+    "category": "HTML/CSS",
+    "imageURL": "portfolioProject.jpg",
+    "link": "https://arteugeniu.github.io/portfolioProject/",
+    "github": "https://github.com/ArtEugeniu/portfolioProject"
+  },
   {
     "id": 7,
     "title": "CalculatorApp",
@@ -67,5 +61,14 @@
     "imageURL": "calculator.jpg",
     "link": "https://arteugeniu.github.io/Calculator-/",
     "github": "https://github.com/ArtEugeniu/Calculator-"
+  },
+  {
+    "id": 8,
+    "title": "Memory Game",
+    "description": "A memory mini-game built with JavaScript, featuring button event handling and interactive gameplay.",
+    "category": "JavaScript",
+    "imageURL": "memoryGame.jpg",
+    "link": "https://arteugeniu.github.io/MemoryGame/",
+    "github": "https://github.com/ArtEugeniu/MemoryGame"
   }
 ]
