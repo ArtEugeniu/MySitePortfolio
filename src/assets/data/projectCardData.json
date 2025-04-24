@@ -70,5 +70,14 @@
     "imageURL": "memoryGame.jpg",
     "link": "https://arteugeniu.github.io/MemoryGame/",
     "github": "https://github.com/ArtEugeniu/MemoryGame"
+  },
+  {
+    "id": 9,
+    "title": "E-commerce",
+    "description": "A multi-page online store built with HTML, CSS, and SCSS, utilizing jQuery and plugins for enhanced functionality.",
+    "category": "React",
+    "imageURL": "ecommerce.jpg",
+    "link": "https://arteugeniu.github.io/SimpleFood/",
+    "github": "https://github.com/ArtEugeniu/SimpleFood"
   }
 ]
