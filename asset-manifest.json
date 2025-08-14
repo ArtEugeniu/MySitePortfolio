@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/MySitePortfolio/static/css/main.a325d05a.css",
-    "main.js": "/MySitePortfolio/static/js/main.7f935d87.js",
+    "main.js": "/MySitePortfolio/static/js/main.adde4317.js",
     "static/js/453.3cbada5f.chunk.js": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js",
     "static/media/portfolioProject.jpg": "/MySitePortfolio/static/media/portfolioProject.dc395430fd40663bd027.jpg",
     "static/media/certificateLayout.png": "/MySitePortfolio/static/media/certificateLayout.0d7aa139f40cc5555957.png",
+    "static/media/taxi-project.jpg": "/MySitePortfolio/static/media/taxi-project.be3522ae5da5f84dc9a1.jpg",
     "static/media/hero-background.jpg": "/MySitePortfolio/static/media/hero-background.1ade596bec9e403bf653.jpg",
     "static/media/ecommerce.jpg": "/MySitePortfolio/static/media/ecommerce.fad32bb4eea0fca330fd.jpg",
     "static/media/certificateJs2.jpg": "/MySitePortfolio/static/media/certificateJs2.d6ffe1c9775da77c52f0.jpg",
@@ -36,11 +37,11 @@
     "static/media/html-icon.svg": "/MySitePortfolio/static/media/html-icon.c1bb84e022ca9d76984d.svg",
     "static/media/arrowRight-icon.svg": "/MySitePortfolio/static/media/arrowRight-icon.a738a3baf441f19785d7.svg",
     "main.a325d05a.css.map": "/MySitePortfolio/static/css/main.a325d05a.css.map",
-    "main.7f935d87.js.map": "/MySitePortfolio/static/js/main.7f935d87.js.map",
+    "main.adde4317.js.map": "/MySitePortfolio/static/js/main.adde4317.js.map",
     "453.3cbada5f.chunk.js.map": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a325d05a.css",
-    "static/js/main.7f935d87.js"
+    "static/js/main.adde4317.js"
   ]
 }
