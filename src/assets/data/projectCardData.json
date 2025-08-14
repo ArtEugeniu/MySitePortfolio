@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Private Taxi Project",
+    "description": "A real Next.js taxi website with SEO optimization and multilingual support (Romanian and Russian). The site ranks on Google from the first to third page depending on the query, and shows first for searches of this specific driver.",
+    "category": "React",
+    "imageURL": "taxi-project.jpg",
+    "link": "https://taxi-edinet.vercel.app/",
+    "github": "https://github.com/ArtEugeniu/taxiProject"
+  },
+  {
+    "id": 2,
     "title": "E-commerce (TypeScript)",
     "description": "An online clothing store, still under development. A multi-page website built using various libraries and Redux Toolkit for state management.",
     "category": "React",
@@ -9,7 +18,7 @@
     "github": "https://github.com/ArtEugeniu/E-commerce-project"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "To Do App (TypeScript)",
     "description": "A task manager app built with React and TypeScript, featuring task management, drag-and-drop, and filtering.",
     "category": "React",
@@ -18,7 +27,7 @@
     "github": "https://github.com/ArtEugeniu/ToDoList-React"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "My Portfolio-Site",
     "description": "My portfolio website built with React, utilizing useState, useEffect, components, and react-scroll for smooth navigation.",
     "category": "React",
@@ -27,7 +36,7 @@
     "github": "https://github.com/ArtEugeniu/MySitePortfolio"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "SimpleFood",
     "description": "A multi-page online store built with HTML, CSS, and SCSS, utilizing jQuery and plugins for enhanced functionality.",
     "category": "HTML/CSS",
@@ -36,7 +45,7 @@
     "github": "https://github.com/ArtEugeniu/SimpleFood"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "TicTacToe Game",
     "description": "A Tic-Tac-Toe game built with JavaScript, featuring interactive gameplay and basic game logic.",
     "category": "JavaScript",
@@ -45,7 +54,7 @@
     "github": "https://github.com/ArtEugeniu/XO_Game"
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "To Do List (Vanilla JS)",
     "description": "A classic To-Do List built with JavaScript. Features task addition, editing, deletion, and Local Storage support",
     "category": "JavaScript",
@@ -54,7 +63,7 @@
     "github": "https://github.com/ArtEugeniu/ToDoList-Vanilla-Js"
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "PortfolioProject",
     "description": "My first project built with HTML and CSS, featuring basic layout, responsiveness, and cross-browser compatibility.",
     "category": "HTML/CSS",
@@ -63,7 +72,7 @@
     "github": "https://github.com/ArtEugeniu/portfolioProject"
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "CalculatorApp",
     "description": "An Apple-style calculator built with JavaScript, featuring a sleek design and basic arithmetic functionality.",
     "category": "JavaScript",
@@ -72,7 +81,7 @@
     "github": "https://github.com/ArtEugeniu/Calculator-"
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Memory Game",
     "description": "A memory mini-game built with JavaScript, featuring button event handling and interactive gameplay.",
     "category": "JavaScript",
