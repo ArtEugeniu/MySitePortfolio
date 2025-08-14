@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Private Taxi Project",
+    "title": "Taxi Project",
     "description": "A real Next.js taxi website with SEO optimization and multilingual support (Romanian and Russian). The site ranks on Google from the first to third page depending on the query, and shows first for searches of this specific driver.",
     "category": "React",
     "imageURL": "taxi-project.jpg",

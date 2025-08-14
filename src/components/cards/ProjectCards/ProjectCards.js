@@ -1,16 +1,29 @@
 import './ProjectCards.scss'
 import projectCardData from '../../../assets/data/projectCardData.json';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useState } from 'react';
 
 
 function ProjectCards({ activeCategory }) {
 
+  const [isOpenPopup, setIsOpenPopup] = useState(false);
+
   let filteredProjects
+
+  console.log(projectCardData)
 
   if (activeCategory === 'All') {
     filteredProjects = projectCardData;
   } else {
     filteredProjects = projectCardData.filter(item => item.category === activeCategory);
+  }
+
+  const hadnleGithubClick = (item) => {
+    if (item.title === 'Taxi Project') {
+      setIsOpenPopup(true)
+    } else {
+      window.open(item.github, '_blank', 'noopener,noreferrer');
+    }
   }
 
 
@@ -44,7 +57,7 @@ function ProjectCards({ activeCategory }) {
                 {item.description}
               </p>
               <div className="projectCards__buttons">
-                <a href={item.github} target="_blank" rel="noopener noreferrer" className="projectCards__btn projectCards__btn--github">GitHub</a>
+                <button onClick={() => hadnleGithubClick(item)} target="_blank" rel="noopener noreferrer" className="projectCards__btn projectCards__btn--github">GitHub</button>
                 <a href={item.link} target="_blank" rel="noopener noreferrer" className="projectCards__btn projectCards__btn--live-demo">Live Demo</a>
               </div>
 
@@ -52,6 +65,16 @@ function ProjectCards({ activeCategory }) {
           )
         })}
       </AnimatePresence>
+
+      {isOpenPopup && (
+        <div className="popup-overlay" onClick={() => setIsOpenPopup(false)}>
+          <div className="popup-content">
+            <h2>Warning!</h2>
+            <p>GitHub repository for this project is private.</p>
+            <button onClick={() => setIsOpenPopup(false)}>OK</button>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
