@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MySitePortfolio/static/css/main.8db7988a.css",
-    "main.js": "/MySitePortfolio/static/js/main.d2857ce2.js",
+    "main.js": "/MySitePortfolio/static/js/main.84ab3604.js",
     "static/js/453.3cbada5f.chunk.js": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js",
     "static/media/portfolioProject.jpg": "/MySitePortfolio/static/media/portfolioProject.dc395430fd40663bd027.jpg",
     "static/media/certificateLayout.png": "/MySitePortfolio/static/media/certificateLayout.0d7aa139f40cc5555957.png",
@@ -9,6 +9,7 @@
     "static/media/hero-background.jpg": "/MySitePortfolio/static/media/hero-background.1ade596bec9e403bf653.jpg",
     "static/media/ecommerce.jpg": "/MySitePortfolio/static/media/ecommerce.fad32bb4eea0fca330fd.jpg",
     "static/media/certificateJs2.jpg": "/MySitePortfolio/static/media/certificateJs2.d6ffe1c9775da77c52f0.jpg",
+    "static/media/licurici.jpg": "/MySitePortfolio/static/media/licurici.afa18e05bf6d7a46a46d.jpg",
     "static/media/certificate.jpg": "/MySitePortfolio/static/media/certificate.81007735ddf5afb35f88.jpg",
     "static/media/certificateTs.jpg": "/MySitePortfolio/static/media/certificateTs.91affb48920f87f4e268.jpg",
     "static/media/myPortfolioSite.jpg": "/MySitePortfolio/static/media/myPortfolioSite.9c600944f7ce51be5859.jpg",
@@ -37,11 +38,11 @@
     "static/media/html-icon.svg": "/MySitePortfolio/static/media/html-icon.c1bb84e022ca9d76984d.svg",
     "static/media/arrowRight-icon.svg": "/MySitePortfolio/static/media/arrowRight-icon.a738a3baf441f19785d7.svg",
     "main.8db7988a.css.map": "/MySitePortfolio/static/css/main.8db7988a.css.map",
-    "main.d2857ce2.js.map": "/MySitePortfolio/static/js/main.d2857ce2.js.map",
+    "main.84ab3604.js.map": "/MySitePortfolio/static/js/main.84ab3604.js.map",
     "453.3cbada5f.chunk.js.map": "/MySitePortfolio/static/js/453.3cbada5f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8db7988a.css",
-    "static/js/main.d2857ce2.js"
+    "static/js/main.84ab3604.js"
   ]
 }
